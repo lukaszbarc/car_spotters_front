@@ -40,7 +40,7 @@ module.exports = function (options) {
                 {
                     test: /\.css$/,
                     loaders: ['to-string-loader', 'css-loader'],
-                    exclude: /(vendor\.css|global\.css)/
+                    exclude: /(vendor\.css|global\.css)|style\.css/
                 },
                 {
                     test: /(vendor\.css|global\.css)/,
