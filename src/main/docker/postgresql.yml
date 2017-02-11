@@ -1,0 +1,12 @@
+version: '2'
+services:
+    car_spotters_front-postgresql:
+        container_name: car_spotters_front-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/car_spotters_front/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=car_spotters_front
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
