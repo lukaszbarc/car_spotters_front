@@ -1,0 +1,8 @@
+<div class="row">
+    <h1>Last Photos</h1>
+    <div class="row">
+        <div *ngFor="let photo of photos">
+        <app-photo-thumb [photo]="photo"></app-photo-thumb>
+        </div>
+    </div>
+</div>

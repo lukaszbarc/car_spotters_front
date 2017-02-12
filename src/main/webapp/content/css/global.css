@@ -1,6 +1,8 @@
 /* ==============================================================
 Bootstrap tweaks
 ===============================================================*/
+body {
+}
 
 body, h1, h2, h3, h4 {
     font-weight: 300;
@@ -241,3 +243,8 @@ Social Buttons
     color: #fff;
 }
 /* jhipster-needle-css-add-main JHipster will add new css style */
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}

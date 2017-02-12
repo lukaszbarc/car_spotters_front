@@ -1,0 +1,15 @@
+<div class="row">
+    <h1>Top authors</h1>
+    <div class="row">
+        <div class="col-md-12">
+
+            <ul>
+                <li *ngFor="let author of authors; let i = index">
+                    <span class="text-left">{{i+1}} {{author.login}}</span>
+                    <span class="text-right">{{author.totalPoints}}</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>

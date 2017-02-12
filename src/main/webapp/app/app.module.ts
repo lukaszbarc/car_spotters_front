@@ -24,6 +24,9 @@ import {
     ActiveMenuDirective,
     ErrorComponent
 } from './layouts';
+import {LastPhotosComponent} from "./photos/last-photos/last-photos.component";
+import {PhotoThumbComponent} from "./photos/photo-thumb/photo-thumb.component";
+import {TopAuthorsComponent} from "./photos/top-authors/top-authors.component";
 
 
 @NgModule({
@@ -39,6 +42,9 @@ import {
     declarations: [
         JhiMainComponent,
         HomeComponent,
+        LastPhotosComponent,
+        PhotoThumbComponent,
+        TopAuthorsComponent,
         NavbarComponent,
         ErrorComponent,
         PageRibbonComponent,
